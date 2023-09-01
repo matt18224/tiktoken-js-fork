@@ -1,4 +1,4 @@
-const globalThis = globalThis || window || self; // ensure compatibility across different environments
+var globalThis = globalThis || window || self; // ensure compatibility across different environments
 (function (exports) {
 	'use strict';
 
